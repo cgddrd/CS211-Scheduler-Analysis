@@ -156,9 +156,9 @@ public class Job {
 		return finishTime-startCycle;
 	}
 	
-	public String toString() {
-		return name+":"+priority+"\t"+getElapsedDuration();
-	}
+//	public String toString() {
+//		return name+":"+priority+"\t"+getElapsedDuration();
+//	}
 	
 	
 	// the strings for the update window displays.
