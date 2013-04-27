@@ -48,11 +48,11 @@ public class LotterySchedulingWeighted extends AbstractScheduler {
 		
 		tickets.clear();
 		
-		for (Job job : queue) {
+		for (Job currentJob : queue) {
 			
-			for (int i = 0; i < job.getPriority(); i++) {
+			for (int i = 0; i < currentJob.getPriority(); i++) {
 				
-				tickets.add(new LotteryTicket(tickets.size(), job));
+				tickets.add(new LotteryTicket(tickets.size(), currentJob));
 				
 			}
 		}

@@ -235,7 +235,8 @@ public class SimulatorApplication {
 			System.setProperty("com.apple.mrj.application.apple.menu.about.name","211Sim");
 			System.setProperty("apple.laf.useScreenMenuBar","true");
 		}
-		new SimulatorApplication();
+		
+		new SimulatorApplication();  
 
 	}
 
