@@ -1,0 +1,8 @@
+# file for Scheduler simulator
+# process name:priority;start time;cycles on cpu, cycles blocked, cycles on cpu...
+#THIS TESTS WHAT HAPPENS WHEN TWO PROCESSES HAVE THE SAME EXECUTION TIME. AS CPU1 COMES FIRST IN THIS FILE, IT GETS PROCESSED FIRST. 
+CPU1:2;0;5,2,5
+CPU2:1;0;12
+MIXED1:2;0;0,1
+IO1:3;0;8
+CPU3:2;0;4,2,3

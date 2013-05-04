@@ -1,0 +1,9 @@
+# file for Scheduler simulator
+# process name:priority;start time;cycles on cpu, cycles blocked, cycles on cpu...
+# USED TO TEST THAT SRT ALGORITHM CORRECTLY PROCESSES THE JOBS BY THEIR EXECUTION TIME.
+# MO IDLE TIME IS SET IN THIS DATA FILE.
+CPU1:2;0;3,6,1,7,8,9
+CPU2:1;0;1,20,5,10
+MIXED1:2;0;1,5,1,5,1,5,1,5,1,5,1,5
+IO1:3;0;2,40,1
+CPU3:2;0;8,30

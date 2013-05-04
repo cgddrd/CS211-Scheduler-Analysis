@@ -1,0 +1,9 @@
+# file for Scheduler simulator
+# process name:priority;start time;cycles on cpu, cycles blocked, cycles on cpu...
+#THIS ADJUSTS THE PRIORITY BY INCREASING THE TOTOAL JOB TIME OF CPU1 TO 14, NOT 12. THEREFORE CPU2 COMES FIRST.
+CPU1:2;0;5,4,5
+CPU2:1;0;12
+MIXED1:2;0;0,1
+IO1:3;0;8
+CPU3:2;0;32
+
